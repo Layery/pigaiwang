@@ -1,0 +1,142 @@
+<div class="main-cont">
+    <!--页面内容-->
+    <p class="h5 page-tit-lev1">线下到院&gt;&gt; 分诊接待 &gt;&gt; 新增到院</p>
+    <div class="base-wrap customer-info add-hospital">
+        <form class="form-horizontal form-reception-wraper">
+            <p class="tit" style="padding-bottom: 11px;font-size: 16px;border-bottom: 1px dashed #E5E5E5">客户信息</p>
+            <div class="cont-form">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label"><i class="red">*</i>手机号：</label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control phone_crypt" id="callback-client-phone" placeholder="" name="phone_crypt">
+                        <span class="red-msg red-msg-phone" style="color: red; display: none;"></span>
+                    </div>
+                    <label for="" class="col-sm-2 control-label"><i class="red">*</i>客户姓名：</label>
+                    <div class="col-sm-3">
+                        <div class="sc-baseBox">
+                            <input type="text" class="form-control real_name" id="callback-client-name" placeholder="" name="real_name" value="">
+                            <div class="res-box callback-result" style="display: none;">
+                            </div>
+                            <span class="red-msg red-msg-real_name" style="color: red; display: none;"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label item-tit"><i class="red">*</i>性别：</label>
+                    <div class="col-sm-3 gender">
+                        <input type="radio" name="sex" value="2" checked>
+                        <label class="woman-left">女</label>
+                        <input type="radio" name="sex" value="1">
+                        <label>男</label>
+                    </div>
+                    <label class="col-sm-2 control-label">客户ID：</label>
+                    <div class="col-sm-3 client-ID">
+                        <span class="number-left" id="callback-client-id"></span>
+                        <a id="callback-client-href" style="display: none;" target="_blank" class="client-details blue" href="javascript:;">客户详情</a>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label"><i class="red">*</i>客户来源：</label>
+                    <div class="col-sm-3">
+                        <select class="form-control left" id="callback-client-source" name="source">
+                            <option>请选择客户来源</option>
+                            {volist name='frontData.source' id='v'}
+                            <option value="{$key}">{$v}</option>
+                            {/volist}
+                        </select>
+                    </div>
+                    <label class="col-sm-2 control-label"><i class="red">*</i>级别：</label>
+                    <div class="col-sm-3">
+                        <select class="form-control left" id="callback-client-level" name="level">
+                            <option>请选择级别</option>
+                            {volist name='frontData.level' id='v'}
+                            <option value="{$key}">{$v}</option>
+                            {/volist}
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <p class="tit" style="padding-bottom: 11px;font-size: 16px;border-bottom: 1px dashed #E5E5E5">本次到院</p>
+            <div class="cont-form">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label"><i class="red">*</i>分诊状态：</label>
+                    <div class="col-sm-3">
+                        <select class="form-control left" name="status">
+                            <option>请选择分诊状态</option>
+                            {volist name='frontData.reception' id='v'}
+                            <option value="{$key}">{$v}</option>
+                            {/volist}
+                        </select>
+                    </div>
+                    <label class="col-sm-2 control-label"><i class="red">*</i>意向项目：</label>
+                    <div class="col-sm-3">
+                        <select class="form-control left" name="part_type">
+                            <option>请选择意向项目</option>
+                            {volist name='frontData.partType' id='v'}
+                            <option value="{$key}">{$v}</option>
+                            {/volist}
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label"><i class="red">*</i>咨询师：</label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control block-consult-name" value="" disabled>
+                    </div>
+                    <input type="hidden" class="hide-consult-id" name="consult_id" value="">
+                    <input type="button" style="display: none;" class="counselor dispatch-consult pop-select-zxs" value="指派咨询师" />
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">到院说明：</label>
+                    <div class="col-sm-6">
+                        <textarea class="form-control" rows="5" cols="20" placeholder="" name="remark"></textarea>
+                    </div>
+                </div>
+                <div class="btn-box w468">
+                    <div class="left"><span class="btn btn-success btn-save-reception">提交</span></div>
+                    <div class="right"><span class="btn btn-default" onclick="javascript:(window.location.reload());">清空</span></div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!--//页面内容-->
+</div>
+<!-- select zxs pop begin-->
+<div class="hy-pub-popup form-popup" id="pop-select-comein" style="display: none;">
+    <div class="inner">
+        <div class="tit"><p><span id="title-comein">选择客户</span><span class="close doClose">X</span></p></div>
+        <div class="cont">
+            <div class="clearfix pub-wraper">
+                <div class="left" style="width: 30%"><input class="form-control" id="keywords-comein" type="text" value="" placeholder="姓名"></div>
+                <span class="btn btn-default mg-l-10 btn-select-comein">查询</span>
+            </div>
+            <div class="table-wraper" id="pop-div-comein" style="overflow-y: scroll; width: 960px; height: 300px;">
+                <table class="table table-bordered table-hover center-tit dialog-table">
+                    <thead>
+                    <tr>
+                        <th>
+                        </th>
+                        <th>用户姓名</th>
+                        <th>性别</th>
+                        <th>部门</th>
+                        <th>职务</th>
+                        <th>角色</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pop-page">
+            </div>
+            <input type="hidden" name="id-list" value="">
+            <div class="btn-box">
+                <div class="left"><span class="btn btn-success" id="btn-sure-comein">确定</span></div>
+                <div class="right"><span class="btn btn-default doCancle">取消</span></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- select zxs pop-end -->
+<script type="text/javascript" src="{:JSCSS}static/js/reception.js?v={:JS_VERSION}"></script>

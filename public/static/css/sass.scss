@@ -1,0 +1,53 @@
+/**
+ * Created by LJ on 2018/8/1.
+ * for HaoYi SAAS
+ */
+$version:1;
+$c-green:#51aa38;
+$border-color1:#eff3f5;
+
+/*pub style*/
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr { margin: 0; padding: 0; color: #333; }
+body { font-size: 12px; background: #eff3f6; }
+body, input, textarea { font-family: 'Microsoft Yahei'; }
+ul, ol, li { list-style: none; }
+fieldset, img { border: 0; }
+.clearfix:after { display: block; visibility: hidden; clear: both; height: 0; content: '.'; }
+.clearfix { zoom: 1; }
+table { border-spacing: 0; border-collapse: collapse; }
+input:focus, textarea:focus { outline: none; }
+em, i { font-style: normal; font-style: normal; }
+a { text-decoration: none; outline: none; }
+.left, .flleft { float: left; }
+.right, .flright { float: right; }
+.pos_rel { position: relative; }
+.pos_abs { position: absolute; }
+.d-n { display: none; }
+.d-b { display: block; }
+.text-hidden, .text-overflow { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-break: keep-all; }
+/*//pub style*/
+/*basepage*/
+.header { position: fixed; top:0; left: 0; width: 100%; z-index: 999; width: 100%; height: 60px; line-height: 60px; background: #fff; }
+.header .header-tit { padding-left: 20px; font-size: 20px; position: fixed; top:0; left: 0; z-index: 9999; background: #fff; }
+.header .inner{ width: 100%; height: 100%; border-bottom: 20px solid #eff3f6 }
+.header .icon { display: inline-block; width: 26px; height: 30px; margin-right: 10px; vertical-align: middle; background: url('../images/logo.png?ver=#{$version}') no-repeat 0 0; background-size: 100% auto; }
+.header .home{ display: inline-block; width: 24px; height: 20px; background: url("../images/home.png?ver=#{$version}") no-repeat 0 center; background-size: 100% auto; position: relative; left: 14px; top:2px;}
+.header .operation-box { padding-right: 20px; }
+.header .operation-box .grp { float: left; padding-right: 40px; font-size: 14px; }
+.header .menu-list { position: relative; float: right; }
+.header .username { padding-right: 24px; font-size: 14px; background: url('../images/dh-icon3.png?ver=#{$version}') no-repeat right center; background-size: 14px auto; }
+.header .cover-list { position: absolute; right: 0; bottom: -75px; display: none; height: 72px; margin-right: -20px; padding: 2px 0; background: #fff; }
+.header .menu-list:hover .cover-list { display: block; }
+.header .cover-list a { display: block; width: 120px; font-size: 14px; line-height: 36px; cursor: pointer;  text-align: center; color: #666; ; }
+.header .cover-list a:hover { color: $c-green; }
+.base-wrap { position: relative; width: 100%; }
+.base-wrap .main-wrap { position: relative; padding-left: 200px; overflow: hidden; }
+.base-wrap .main-wrap .main-cont { width: 100%; background: #fff; margin-top: 80px; }
+.main-menu { position: fixed; top:0; padding-top: 80px; left:0; height: 100%; overflow-y: scroll; width: 180px; box-sizing: border-box; z-index: 9998; background: #fff; }
+.main-menu .inner{ background: #fff;}
+.main-menu .lev1 { display: block; height: 56px; padding-left: 36px; font-size: 16px; line-height: 56px; cursor: pointer; border-bottom: 1px solid $border-color1; background: url('../images/dh-icon1.png?ver=#{$version}') no-repeat 16px center; }
+.main-menu .menu-box.now .lev1 { background-image: url('../images/dh-icon2.png?ver=#{$version}'); }
+.main-menu .menu-box div { display: none; padding: 10px 0 20px; border-bottom: 1px solid $border-color1; }
+.main-menu .menu-box.now div { display: block; }
+.main-menu div a { display: block; height: 37px; padding-left: 36px; font-size: 14px; line-height: 37px; color: #666; }
+.main-menu div a.now,.main-menu div a:hover, .main-menu .menu-box .lev1:hover{ color: $c-green; }

@@ -1,0 +1,108 @@
+<div class="main-cont">
+    <!--页面内容-->
+    <p class="h5 page-tit-lev1">作业管理 >> 作业列表</p>
+    <div class="review-template">
+        <form class="clearfix normal-iptWraper" method="post">
+            <a href="?jumpDate={$params.beforeJumpDate}" class="icon-yesterday">&lt;</a>
+            <span class="line-tit">{$params.jumpDate} &nbsp;{$params.week}&nbsp;({$params.dateTip}) &nbsp;</span>
+            <a href="?jumpDate={$params.afterJumpDate}" class="icon-tomorrow">&gt;</a>
+            <span class="btn btn-default mg-l-10" onclick="javascript:(window.location.href='/pigaiwang/public/index.php/haoyi/pigai/worklist')">返回今天</span>
+            <a href="/pigaiwang/public/index.php/haoyi/pigai/create" class="btn btn-default mg-l-10" id="add-rota-two">{if $Think.session.userinfo.role_id == 1}布置作业{else/}写作业{/if}</a>
+        </form>
+        <table class="table table-bordered table-hover center-tit">
+            <thead>
+            <tr>
+                <th>序号</th>
+                <th>作业标题</th>
+                <th>作业内容</th>
+                <th>姓名</th>
+                <th>提交时间</th>
+                <th>操作</th>
+            </tr>
+            {volist name='list' id='v'}
+            <tr id="{$v.id}">
+                <td>{$v.id}</td>
+                <td>{$v.title}</td>
+                <td title="{$v.content}">{$v.intro}</td>
+                <td>{$v.insert_user_name}</td>
+                <td>{$v.add_time|date='Y-m-d H:i:s'}</td>
+                {if $Think.session.userinfo.role_id == 1}
+                <td>
+                    <a class="edit-btn blue btn-edit-reception" href="/pigaiwang/public/index.php/haoyi/pigai/edit?id={$v.id}">批改</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a class="edit-btn blue btn-edit-reception work_del" data-id="{$v.id}" href="javascript:;">删除</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a class="edit-btn blue btn-edit-reception" href="/pigaiwang/public/index.php/haoyi/pigai/view?id={$v.id}">查看</a>
+                </td>
+                {else/}
+                <td>
+                    <a class="edit-btn blue btn-edit-reception" href="/pigaiwang/public/index.php/haoyi/pigai/view?id={$v.id}">查看</a>
+                </td>
+                {/if}
+
+            </tr>
+            {/volist}
+            </thead>
+        </table>
+    </div>
+</div>
+<!-- select zxs pop begin-->
+<div class="hy-pub-popup form-popup" id="pop-select-comein" style="display: none;">
+    <div class="inner">
+
+        <div class="cont">
+            <form class="form-horizontal form-reception-wraper">
+                <div class="cont-form">
+                    <div class="form-group">
+
+                        <label for="" class="col-sm-2 control-label"><i class="red">*</i>作业标题：</label>
+                        <div class="col-sm-3">
+                            <div class="sc-baseBox">
+                                <input type="text" class="form-control" id="zuoye_title" placeholder="" name="zuoye_title" value="">
+                                <div class="res-box callback-result" style="display: none;">
+                                </div>
+                                <span class="red-msg red-msg-real_name" style="color: red; display: none;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-form">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label"><i class="red">*</i>作业内容：</label>
+                        <pre class="col-sm-8" style="height: 350px;">
+                            借条<br/>&nbsp;&nbsp;大家好, 我是借条, 阿斯顿发生的发送大手动阀是的发生大手动阀按说发手动阀阿斯顿发生的法师打发斯蒂芬按说大是大非阿斯顿发生大手动阀阿斯蒂发送大手动阀阿斯蒂芬阿斯顿发生大发斯蒂
+
+
+
+                            2019年6月18日
+
+                            未定义
+                        </pre>
+                    </div>
+                </div>
+            </form>
+            <input type="hidden" name="id-list" value="">
+            <div class="btn-box">
+                <div class="left"><span class="btn btn-success" id="btn-sure-comein">确定</span></div>
+                <div class="right"><span class="btn btn-default doCancle">取消</span></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- select zxs pop-end -->
+
+<script>
+    $(function () {
+        $('.work_del').on('click', function () {
+            if (confirm('确认删除该条记录吗?')) {
+
+            } else {
+                return false;
+            }
+            var id = $(this).attr('data-id');
+            var url = '/pigaiwang/public/index.php/haoyi/pigai/delete?id=' + id;
+            window.location.href = url;
+
+        });
+    })
+</script>

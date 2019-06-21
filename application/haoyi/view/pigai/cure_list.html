@@ -1,0 +1,245 @@
+<div class="main-cont">
+    <!--页面内容-->
+    <p class="h5 page-tit-lev1">线下到院 &gt;&gt; 治疗记录</p>
+    <div class="consult-list">
+        <div class="repeated-viste">
+            <form class="form-inline" method="post">
+                <div class="horizontal-title">
+                    <p class="date-box">
+                        <input type="text" id="test1" class="Wdate date datepicker" readonly name="startTime" value="{$Think.post.startTime ? $Think.post.startTime : $Think.get.startTime}" placeholder="划扣时间">
+                        <label for="" class="laydate-icon"></label>
+                    </p>
+                    <span class="pd-r10 pd-l10 left c666">—</span>
+                    <p class="date-box">
+                        <input type="text" id="end" class="Wdate date datepicker" readonly name="endTime" value="{$Think.post.endTime ? $Think.post.endTime : $Think.get.endTime}" placeholder="划扣时间">
+                        <label for="" class="laydate-icon"></label>
+                    </p>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control mg-r-10 w196" id="" name="keywords" value="{$Think.post.keywords ? $Think.post.keywords : $Think.get.keywords}" placeholder="客户姓名、手机号">
+                    <input type="submit" class="btn btn-default" value="查询">
+                </div>
+            </form>
+            <p class="pub-tit"></p>
+            <table class="table table-bordered table-hover center-tit">
+                <thead>
+                <tr>
+                    <th>序号</th>
+                    <th>客户姓名</th>
+                    <th>性别</th>
+                    <th>手机号</th>
+                    <th>划扣时间</th>
+                    <th>划扣订单</th>
+                    <th>划扣商品</th>
+                    <th>划扣数量</th>
+                    <th>登记人</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                {volist name='list' id='row'}
+                <tr id="{$row.id}" data-client="{$row.client_id}">
+                    <td class="td-data" style="display: none">{$row|json_encode}</td>
+                    <td>{$countItem+$key+1}</td>
+                    <td>{$row.real_name}</td>
+                    <td>{$row.sex}</td>
+                    <td>{$row.phone}</td>
+                    <td>{$row.cure_time}</td>
+                    <td>{$row.goods_order_id}</td>
+                    <td title="{$row.sku_name}">{if mb_strlen($row.sku_name) >= 15 }{$row.sku_name|mb_substr=0, 15}...{else /}{$row.sku_name}{/if}</td>
+                    <td>{$row.use_number}</td>
+                    <td>{$row.create_name}</td>
+                    <td>
+                        <span class="edit-btn blue btn-cure-detail">查看详情</span>&nbsp;&nbsp;
+                        {if $row.create_id == $Think.session.userinfo.id}
+                        <span class="edit-btn blue btn-cure-edit">编辑</span>&nbsp;&nbsp;
+                        {/if}
+                    </td>
+                </tr>
+                {/volist}
+                </tbody>
+            </table>
+            <div class="nav-wraper">
+                {$list|raw}
+            </div>
+        </div>
+    </div>
+    <!--//页面内容-->
+</div>
+<!-- detail cure-detail begin -->
+<div class="hy-pub-popup redact-power-grid-detail pop-cure-detail" style="display: none;">
+    <div class="inner">
+        <div class="tit"><p>治疗详情<span class="close doClose">X</span></p></div>
+        <div class="cont">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">客户姓名：</label>
+                    <div class="col-sm-3 client-ID cure-client-real_name"></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">性别：</label>
+                    <div class="col-sm-3 client-ID cure-client-sex"></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">手机号：</label>
+                    <div class="col-sm-3 client-ID cure-client-phone"></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">治疗时间：</label>
+                    <div class="col-sm-3 client-ID cure-client-beauty_time"></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">医院：</label>
+                    <div class="col-sm-3 client-ID cure-client-hospital_name"></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">划扣时间：</label>
+                    <div class="col-sm-3 client-ID cure-client-cure_time"></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">划扣订单：</label>
+                    <div class="col-sm-3 client-ID cure-client-goods_order_id"></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">划扣商品：</label>
+                    <div class="col-sm-3 client-ID cure-client-sku_name"></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">划扣数量：</label>
+                    <div class="col-sm-3 client-ID cure-client-use_number"></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">医生：</label>
+                    <div class="col-sm-3 client-ID cure-client-doctor_name"></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">配台护士：</label>
+                    <div class="col-sm-3 client-ID cure-client-pair_name"></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">麻醉师：</label>
+                    <div class="col-sm-3 client-ID cure-client-hocus_name"></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">助理医师：</label>
+                    <div class="col-sm-3 client-ID cure-client-aide_name"></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">备注：</label>
+                    <div class="col-sm-3 client-ID cure-client-remark"></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">登记人：</label>
+                    <div class="col-sm-3 client-ID cure-client-create_user"></div>
+                </div>
+                <div class="btn-close">
+                    <div class="center">
+                        <span class="btn btn-success doCancle">关闭</span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- detail cure-detail end -->
+
+<!-- edit cure begin -->
+<div class="hy-pub-popup edit-registration pop-cure-edit" style="display: none;">
+    <div class="inner">
+        <div class="tit"><p>编辑登记信息<span class="close doClose">X</span></p></div>
+        <div class="cont">
+            <form class="form-horizontal form-edit-cure">
+                <input type="hidden" name="id" class="pop-cure-id" value="">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">划扣订单：</label>
+                    <div class="col-sm-3 client-ID pop-cure-goods_order_id"></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">划扣商品：</label>
+                    <div class="col-sm-6 client-ID pop-cure-sku_name"></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">划扣数量：</label>
+                    <div class="col-sm-3 client-ID pop-cure-use_number"></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label"><i class="red">*</i>医生：</label>
+                    <div class="col-sm-6">
+                        <input type="hidden" class="pop-cure-doctor_name" name="doctor_name" value="">
+                        <select class="form-control pop-cure-doctor_id" name="doctor_id">
+                            <option value="">请选择医生</option>
+                            {volist name='doctorList' id='v'}
+                            <option value="{$v.id}" data-name="{$v.nickname}">{$v.nickname}</option>
+                            {/volist}
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label"><i class="red">*</i>配台护士：</label>
+                    <div class="col-sm-3">
+                        <div class="sc-baseBox">
+                            <input type="hidden" name="pair_id" class="pair_id" value="">
+                            <input type="text" class="form-control pair_name pop-cure-pair_name" name="pair_name" value="">
+                            <div class="res-box callback-result callback-result-pair" id="pair" style="display: none;">
+                            </div>
+                            <span class="red-msg red-msg-pair" style="color: red; display: none;"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">巡回护士：</label>
+                    <div class="col-sm-3">
+                        <div class="sc-baseBox">
+                            <input type="hidden" name="patrol_id" class="patrol_id" value="">
+                            <input type="text" name="patrol_name" class="form-control patrol_name pop-cure-patrol_name">
+                            <div class="res-box callback-result callback-result-patrol" id="patrol" style="display: none;">
+                            </div>
+                            <span class="red-msg red-msg-patrol" style="color: red; display: none"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">麻醉师：</label>
+                    <div class="col-sm-6">
+                        <input type="hidden" class="pop-cure-hocus_name" name="hocus_name" value="">
+                        <select class="form-control pop-cure-hocus_id" name="hocus_id">
+                            <option value="">请选择麻醉师</option>
+                            {volist name='doctorList' id='v'}
+                            <option value="{$v.id}" data-name="{$v.nickname}">{$v.nickname}</option>
+                            {/volist}
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">助理医师：</label>
+                    <div class="col-sm-6">
+                        <input type="hidden" class="pop-cure-aide_name" name="aide_name" value="">
+                        <select class="form-control pop-cure-aide_id" name="aide_id">
+                            <option value="">请选择助理医师</option>
+                            {volist name='doctorList' id='v'}
+                            <option value="{$v.id}" data-name="{$v.nickname}">{$v.nickname}</option>
+                            {/volist}
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">备注：</label>
+                    <div class="col-sm-6">
+                        <textarea class="form-control pop-cure-remark" name="remark" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="btn-box">
+                    <div class="left"><span class="btn btn-success btn-save-cure-edit">确定</span></div>
+                    <div class="right"><span class="btn btn-default doClose">取消</span></div>
+                </div>
+                <input type="reset" style="display: none;">
+            </form>
+        </div>
+    </div>
+</div>
+<!-- edit cure end -->
+
+
+<script type="text/javascript" src="{:JSCSS}static/laydate/laydate.js"></script>
+<script type="text/javascript" src="{:JSCSS}static/js/reception.js?v={:JS_VERSION}"></script>

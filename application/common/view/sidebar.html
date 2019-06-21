@@ -1,0 +1,14 @@
+<div class="inner">
+    <?php foreach ($sidebar_list as $row) { ?>
+        <div class="menu-box now">
+            <span class="lev1"><?= $row['name'] ?></span>
+            <div>
+                <?php if (isset($row['child'])) { ?>
+                    <?php foreach ($row['child'] as $sunRow) { ?>
+                        <a href="/pigaiwang/public/index.php/haoyi/<?= $sunRow['controller'] ?>/<?= $sunRow['action']?>" id="<?php echo $sunRow['controller']. '-'. $sunRow['action']?>"><?= $sunRow['name'] ?></a>
+                    <?php } ?>
+                <?php } ?>
+            </div>
+        </div>
+    <?php } ?>
+</div>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{:config('app_desc')}</title>
+    <link rel="stylesheet" type="text/css" href="/pigaiwang/public/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/pigaiwang/public/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="/pigaiwang/public/static/css/saas.css" />
+    <link rel="stylesheet" type="text/css" href="/pigaiwang/public/static/layui/css/layui.css" />
+    <script type="text/javascript" src="/pigaiwang/public/static/js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="/pigaiwang/public/static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/pigaiwang/public/static/js/sass.js"></script>
+    <script type="text/javascript" src="/pigaiwang/public/static/layui/layui.js"></script>
+</head>
+
+<body class="container">
+<div class="header">
+    <div class="left header-tit">
+        <i class="icon"></i> {:config('app_desc')}
+        <a href="/pigaiwang/public/index.php/haoyi/pigai/worklist" class="home"></a>
+    </div>
+    <div class="inner">
+        <div class="right operation-box">
+            <div class="menu-list">
+                <span class="username">{$Think.session.userinfo.nickname}</span>
+                <div class="cover-list">
+                    <a href="/pigaiwang/public/index.php/haoyi/pigai/changepassword">修改密码</a>
+                    <a href="/pigaiwang/public/index.php/haoyi/auth/logout">退出</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-menu">
+        {include file="../application/common/view/sidebar.html" /}
+    </div>
+</div>
+<div class="base-wrap">
+    <div class="main-wrap">
+        {__CONTENT__}
+    </div>
+</div>
+</body>
+<script>
+    $(function () {
+        var curr_menu = "{$curr_menu}";
+        $("#" + curr_menu).addClass('now')
+            .parents('.menu-box')
+            .siblings('.menu-box')
+            .removeClass('now');
+        $("#" + curr_menu).parents('.menu-box').addClass('now');
+    })
+</script>
+</html>
+

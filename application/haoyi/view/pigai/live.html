@@ -1,0 +1,171 @@
+<div class="main-cont">
+    <!--页面内容-->
+    <p class="h5 page-tit-lev1">线下到院 >> 现场咨询</p>
+    <div class="review-template">
+        <form class="clearfix normal-iptWraper" method="post">
+            <a href="?jumpDate={$params.beforeJumpDate}" class="icon-yesterday">&lt;</a>
+            <span class="line-tit">{$params.jumpDate} &nbsp;{$params.week}&nbsp;({$params.dateTip}) &nbsp;</span>
+            <a href="?jumpDate={$params.afterJumpDate}" class="icon-tomorrow">&gt;</a>
+            <span class="btn btn-default mg-l-10" onclick="javascript:(window.location.href='/reception/live')">返回今天</span>
+            <div class="sc-baseBox">
+                <input type="text" class="txt-ipt" name="keywords" placeholder="客户姓名、手机号" value="{$Think.post.keywords ? $Think.post.keywords : $Think.get.keywords}">
+            </div>
+            <input type="submit" class="btn btn-default mg-l-10" value="查询">
+            <a href="/order/confirm" target="_blank" class="btn btn-default mg-l-10">验证订单</a>
+        </form>
+        <table class="table table-bordered table-hover center-tit">
+            <thead>
+            <tr>
+                <th>序号</th>
+                <th>分诊状态</th>
+                <th>是否成交</th>
+                <th>客户姓名</th>
+                <th>性别</th>
+                <th>手机号</th>
+                <th>到院医院</th>
+                <th>实际到院时间</th>
+                <th>意向项目</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            {volist name='list' id='v'}
+            <tr id="{$v.id}" data-client="{$v.client_id}">
+                <td>{$countItem+$key+1}</td>
+                <td>{$v.status}</td>
+                <td>{$v.is_deal}</td>
+                <td>{$v.real_name}</td>
+                <td>{$v.sex}</td>
+                <td>{$v.phone}</td>
+                <td>{$v.hospital}</td>
+                <td>{$v.insert_time|date='Y-m-d H:i:s'}</td>
+                <td>{$v.part_type}</td>
+                <td>
+                    <span class="edit-btn blue btn-consult-edit">编辑咨询记录</span>&nbsp;
+                    <a href="/customer/detail4my?id={$v.client_id}" target="_blank" class="edit-btn blue">客户详情</a>&nbsp;
+                    <a href="/order/addorder?client_id={$v.client_id}" target="_blank" class="edit-btn blue btn-create-order">创建订单</a>&nbsp;
+                    <span class="edit-btn blue btn-link-order">关联订单</span>&nbsp;
+                </td>
+            </tr>
+            {/volist}
+            </tbody>
+        </table>
+        <div class="nav-wraper">
+            {$list|raw}
+        </div>
+    </div>
+    <!--//页面内容-->
+</div>
+<!-- edit consult log begin -->
+<div class="hy-pub-popup redact-consult pop-edit-live" style="display: none;">
+    <div class="inner">
+        <div class="tit"><p>编辑咨询记录<span class="close doClose">X</span></p></div>
+        <div class="cont">
+            <form class="form-horizontal form-pop-edit-live">
+                <input type="hidden" class="pop-edit-live-id" name="id" value="0">
+                <input type="hidden" class="pop-edit-live-client_id" name="client_id" value="0">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">分诊状态：</label>
+                    <div class="col-sm-3 client-ID pop-edit-live-status">初诊</div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">客户姓名：</label>
+                    <div class="col-sm-3 client-ID pop-edit-live-real_name">张三</div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">意向项目：</label>
+                    <div class="col-sm-3 client-ID pop-edit-live-part_type">双眼皮</div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">到院说明：</label>
+                    <div class="col-sm-3 client-ID pop-edit-live-remark">双眼皮</div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label"><i class="red">*</i>本次到院来源：</label>
+                    <div class="col-sm-3">
+                        <select class="form-control pop-edit-live-source" name="source">
+                            {volist name='config.source', id='v'}
+                            <option value="{$key}">{$v}</option>
+                            {/volist}
+
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label"><i class="red">*</i>咨询内容：</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control pop-edit-live-consult_desc" rows="5" name="consult_desc"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label"><i class="red">*</i>是否成交：</label>
+                    <div class="col-sm-3 gender">
+                        <input type="radio" name="is_deal" value="1" checked="">
+                        <label class="woman-left">成交</label>
+                        <input type="radio" name="is_deal" value="2">
+                        <label>未成交</label>
+                    </div>
+                    <div class="col-sm-3 select-deal_remark-tip" style="display: none;">
+                        <select class="form-control pop-edit-live-deal_remark" name="deal_remark">
+                            <option value="0">请选择未成交原因</option>
+                            {volist name='config.dealRemark', id='v'}
+                            <option value="{$key}">{$v}</option>
+                            {/volist}
+                        </select>
+                        <div class="deal_remark-tip">
+                            <i class="red">*</i><span style="color: red">请选择未成交原因</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="btn-box">
+                    <div class="left"><span class="btn btn-success btn-edit-live-save">保存</span></div>
+                    <div class="right"><span class="btn btn-default doClose">取消</span></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- edit consult log end -->
+
+<!-- relation order begin -->
+<div class="hy-pub-popup associated-order pop-relation-order" style="display: none;">
+    <div class="inner">
+        <div class="tit"><p>关联订单<span class="close doClose">X</span></p></div>
+        <div class="cont">
+            <form class="form-horizontal">
+                <table class="table table-bordered table-hover center-tit ">
+                    <thead>
+                    <tr>
+                        <th><input type="checkbox" class="th-checkbox" name="vehicle" value=""></th>
+                        <th>订单时间</th>
+                        <th>订单编号</th>
+                        <th>医院</th>
+                        <th>咨询师</th>
+                        <th>订单金额</th>
+                        <th>订单状态</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <div class="btn-box">
+                    <div class="left"><span class="btn btn-success btn-save-relation">确认</span></div>
+                    <div class="right"><span class="btn btn-default doClose">取消</span></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- relation order end -->
+<script type="text/javascript" src="{:JSCSS}static/laydate/laydate.js"></script>
+<script type="text/javascript" src="{:JSCSS}static/js/reception.js?v={:JS_VERSION}"></script>
+
+
+
+
+
+
+
+
+

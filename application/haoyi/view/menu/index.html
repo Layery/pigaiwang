@@ -1,0 +1,144 @@
+<div class="main-cont">
+        <!--页面内容-->
+        <p class="h5 page-tit-lev1">系统管理 &gt;&gt; 菜单管理</p>
+        <div class="table-wraper center-whole">
+            <form class="form-inline user-list" action="/user/index" method="post">
+                <div class="form-group">
+                    <span class="btn btn-default add-user">+新增菜单</span>
+                </div>
+            </form>
+            <p class="pub-tit"></p>
+            <table class="table table-bordered table-hover center-tit">
+                <thead>
+                <tr>
+                    <th>菜单ID</th>
+                    <th>菜单标题</th>
+                    <th>菜单链接</th>
+                    <th>模块</th>
+                    <th>控制器</th>
+                    <th>方法名</th>
+                    <th>状态</th>
+                    <th>权重</th>
+                    <th>Level</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                {volist name='params.menu_list' id='row'}
+                <tr id="{$row.id}" data-pid="{$row.p_id}">
+                    <td>{$row.id}</td>
+                    <td>{$row.name}</td>
+                    <td><a title="{$row.name}" target="_blank" href="{$row.url}">{$row.url}</a></td>
+                    <td>{$row.module|strtolower}</td>
+                    <td>{$row.controller|strtolower}</td>
+                    <td>{$row.action|strtolower}</td>
+                    <td>{$row.status}</td>
+                    <td>{$row.weight}</td>
+                    <td>{$row.level}</td>
+                    <td>
+                        <span class="edit-btn blue edit">修改</span>&nbsp;&nbsp;
+                        <span class="edit-btn blue stop" data-id="{$row.status}">删除</span>
+                    </td>
+                </tr>
+                {/volist}
+                </tbody>
+            </table>
+            {$user_list|raw}
+        </div>
+        <!--//页面内容-->
+</div>
+<!-- dialog begin -->
+<div class="hy-pub-popup form-popup dialog-add-user" style="display: none;">
+    <div class="inner">
+        <div class="tit"><p><span class="dialog-title">新增菜单</span><span class="close doClose">X</span></p></div>
+        <div class="cont">
+            <form class="form-horizontal" id="form-add-user">
+                <div class="form-group">
+                    <label for="" class="col-sm-2 control-label"><i class="red">*</i>菜单名称</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="" placeholder="" name="name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="" class="col-sm-2 control-label"><i class="red">*</i>权重</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="" placeholder="" name="weight">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <b class="col-sm-2 control-label"><i class="red">*</i>是否显示</b>
+                    <div class="col-sm-10">
+                        <label class="radio-inline">
+                            <input type="radio" name="status" id="" value="1" checked>显示
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="status" id="" value="2">不显示
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="" class="col-sm-2 control-label"><i class="red">*</i>级别</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="" placeholder="" name="level">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="" class="col-sm-2 control-label"><i class="red">*</i>上级菜单</label>
+                    <div class="col-sm-10">
+                        <select class="form-control left" style="width:33%; margin-right: 2%" name="p_id">
+                            <option value="">请选择上级菜单</option>
+                            <option value="top">顶级菜单</option>
+                            {volist name='params.menu_pid' id='row'}
+                                <option value="{$row.id}">{$row.name}</option>
+                                {if isset($row['child']) }
+                                    {volist name='row.child' id='sunRow'}
+                                        <option value="{$sunRow.id}">&nbsp;&nbsp;&nbsp;{$sunRow.name}</option>
+                                        {if isset($sunRow['child'])}
+                                            {volist name='sunRow.child' id='threeRow'}
+                                                <option value="{$threeRow.id}">　　{$threeRow.name}</option>
+                                            {/volist}
+                                        {/if}
+                                    {/volist}
+                                {/if}
+                            {/volist}
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="" class="col-sm-2 control-label"><i class="red">*</i>Module</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="" placeholder="" name="module">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="" class="col-sm-2 control-label"><i class="red">*</i>Controller</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="" placeholder="" name="controller">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="" class="col-sm-2 control-label"><i class="red">*</i>Action</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="" placeholder="" name="action">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="" class="col-sm-2 control-label"><i class="red">*</i>Url</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="" placeholder="" name="url">
+                    </div>
+                </div>
+                <div class="btn-box">
+                    <div class="left"><span class="btn btn-success" id="btn-save-menu">保存</span></div>
+                    <div class="right"><span class="btn btn-default doClose">取消</span></div>
+                    <input type="reset" class="form-reset" style="display: none;">
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+<!-- dialog end -->
+<script type="text/javascript" src="{:JSCSS}static/js/menu.js?v={:JS_VERSION}"></script>
+

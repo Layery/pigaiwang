@@ -1,0 +1,1146 @@
+---------------------------------------------------------------
+[ 2019-06-21T09:32:26+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:32:27+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:32:28+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:32:28+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:32:28+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:32:28+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:32:30+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:32:44+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:32:49+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=9
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:34:54+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:34:54+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T09:35:14+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.007001s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:35:56+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `hy_zuoye` WHERE  `title` = '我的作业' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:36:49+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `hy_zuoye` WHERE  `title` = '我的作业' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:36:58+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `hy_zuoye` WHERE  `title` = '我的作业' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:37:30+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `hy_zuoye` WHERE  `title` = '我的作业' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:37:32+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:37:36+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:47:16+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:47:21+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=9
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:47:24+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:47:27+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=9
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:47:38+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:47:41+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:47:44+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:47:46+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=6
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '借条的格式练习' order by add_time desc limit 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:47:50+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:50:49+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:54:20+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T09:56:24+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:56:25+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/logout
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T09:56:25+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/login.html
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T09:56:29+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/auth/login
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  `username` = 'll' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:56:29+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T09:56:29+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/login.html
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T09:56:35+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/auth/login
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  `username` = 'lili' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:56:35+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:56:53+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/view?id=9
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:56:55+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:56:57+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/view?id=9
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:57:00+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:57:02+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/view?id=9
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:57:09+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T09:57:12+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T09:57:23+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:00:36+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:00:37+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/login.html
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:00:39+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/auth/login
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  `username` = 'jiaoshi' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:00:39+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:00:42+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=9
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:06:26+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/userlist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hy_admin_users` WHERE  (  true  ) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  (  true  ) ORDER BY `insert_time` DESC LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:06:31+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:07:24+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist?jumpDate=2019-06-22
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:07:26+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist?jumpDate=2019-06-23
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:07:27+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist?jumpDate=2019-06-22
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:07:28+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist?jumpDate=2019-06-21
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:07:28+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist?jumpDate=2019-06-20
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:07:30+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:07:31+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:07:38+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/userlist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hy_admin_users` WHERE  (  true  ) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  (  true  ) ORDER BY `insert_time` DESC LIMIT 0,10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:07:40+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:07:45+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/changepassword
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:07:46+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/changepassword
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:07:48+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/userlist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hy_admin_users` WHERE  (  true  ) LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  (  true  ) ORDER BY `insert_time` DESC LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:07:49+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:07:54+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:07:56+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:08:02+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/view?id=6
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:08:05+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:08:07+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/view?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:08:11+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:08:13+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/view?id=9
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:08:16+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/logout
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:08:16+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/login.html
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:08:21+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/auth/login
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  `username` = 'lili' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:08:21+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:08:23+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/view?id=9
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.076004s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:08:25+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:08:27+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/logout
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:08:27+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/login.html
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:08:28+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/auth/login
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  `username` = 'jiaoshi' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:08:28+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:08:37+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:09:35+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/userlist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hy_admin_users` WHERE  (  true  ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  (  true  ) ORDER BY `insert_time` DESC LIMIT 0,10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:09:36+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:09:49+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:13:53+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:13:58+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:13:59+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:00+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:02+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:03+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:03+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:03+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:04+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:04+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:04+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:04+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:13+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:13+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:41+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:44+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:46+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:49+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:51+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:52+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:54+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/logout
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:54+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/login.html
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:56+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/auth/login
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  `username` = 'jiaoshi' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:14:56+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:15:06+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:15:37+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist?jumpDate=2019-06-22
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:15:38+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist?jumpDate=2019-06-23
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:15:39+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist?jumpDate=2019-06-24
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:15:40+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist?jumpDate=2019-06-25
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:15:41+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:26:28+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:26:30+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:29:08+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/userlist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hy_admin_users` WHERE  (  true  ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  (  true  ) ORDER BY `insert_time` DESC LIMIT 0,10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:29:39+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/userlist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hy_admin_users` WHERE  (  true  ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  (  true  ) ORDER BY `insert_time` DESC LIMIT 0,10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:36:05+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/userlist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hy_admin_users` WHERE  (  true  ) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  (  true  ) ORDER BY `insert_time` DESC LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:36:06+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/userlist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hy_admin_users` WHERE  (  true  ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  (  true  ) ORDER BY `insert_time` DESC LIMIT 0,10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:36:08+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/changepassword
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:36:13+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/pigai/changepassword
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:36:14+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/pigai/changepassword
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:36:16+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/userlist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hy_admin_users` WHERE  (  true  ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  (  true  ) ORDER BY `insert_time` DESC LIMIT 0,10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:36:28+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:36:31+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:36:33+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist?jumpDate=2019-06-22
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:36:38+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/userlist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hy_admin_users` WHERE  (  true  ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  (  true  ) ORDER BY `insert_time` DESC LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:36:49+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/changepassword
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:36:51+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/logout
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:36:51+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/login.html
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:36:57+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:36:57+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/login.html
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:36:58+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:36:58+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/login.html
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:37:07+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/auth/login
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  `username` = 'lili' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:37:08+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:37:16+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/auth/login
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  `username` = 'lili' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:37:16+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:37:32+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:38:33+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] INSERT INTO `hy_zuoye` (`title` , `content` , `tips` , `add_time` , `insert_user` , `insert_user_name` , `is_answer`) VALUES ('借条的格式练习' , '<p style=\"text-align: center;\"><span style=\"font-size: 24px;\">5959</span><br/></p><p><span style=\"font-size: 24px;\">&nbsp; &nbsp; sdfg</span></p>' , 't' , 1561084713 , 3 , '李丽' , 0) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:38:37+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:39:37+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/logout
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:39:37+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/login.html
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:39:38+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/auth/login
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  `username` = 'jiaoshi' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:39:38+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:39:40+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=10
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '借条的格式练习' order by add_time desc limit 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:39:44+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:39:45+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/view?id=10
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:39:50+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:40:28+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=10
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '借条的格式练习' order by add_time desc limit 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:40:39+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:40:42+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=9
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:40:44+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:40:47+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=9
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:40:49+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:40:53+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '我的作业' order by add_time desc limit 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:41:01+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:41:05+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/view?id=8
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:41:31+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:15+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:15+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:15+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:15+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:16+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:18+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:19+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:19+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:19+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:19+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:19+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:20+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:20+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:20+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:21+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/edit?id=10
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select title, content, tips from hy_zuoye where is_answer = 1 and title = '借条的格式练习' order by add_time desc limit 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:22+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:24+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:26+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:29+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:32+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:34+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:35+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:38+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:42+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/logout
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:42+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/auth/login.html
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:50+08:00 ] ::1 POST localhost/pigaiwang/public/index.php/haoyi/auth/login
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  `username` = 'lili' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:54:50+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:56:17+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:56:18+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:56:20+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:56:21+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:56:27+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist?jumpDate=2019-06-22
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:56:28+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist?jumpDate=2019-06-23
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:56:31+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist?jumpDate=2019-06-24
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:56:32+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist?jumpDate=2019-06-25
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:56:33+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist?jumpDate=2019-06-26
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:56:34+08:00 ] ::1 GET localhost/pigaiwang/public/index.php/haoyi/pigai/worklist?jumpDate=2019-06-27
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 and insert_user = 3 order by add_time desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:56:42+08:00 ] 127.0.0.1 GET 127.0.0.1/pigaiwang/public/index.php/haoyi/pigai/worklist?jumpDate=2019-06-27
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:56:42+08:00 ] 127.0.0.1 GET 127.0.0.1/pigaiwang/public/index.php/haoyi/auth/login.html
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:56:46+08:00 ] 127.0.0.1 POST 127.0.0.1/pigaiwang/public/index.php/haoyi/auth/login
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  `username` = 'jiaoshi' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:56:46+08:00 ] 127.0.0.1 GET 127.0.0.1/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:57:03+08:00 ] 127.0.0.1 GET 127.0.0.1/pigaiwang/public/index.php/haoyi/pigai/create
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:57:12+08:00 ] 127.0.0.1 GET 127.0.0.1/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:57:27+08:00 ] 127.0.0.1 GET 127.0.0.1/pigaiwang/public/index.php/haoyi/pigai/view?id=10
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_zuoye` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `title`,`content`,`tips`,`add_time`,`insert_user` FROM `hy_zuoye` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:57:33+08:00 ] 127.0.0.1 GET 127.0.0.1/pigaiwang/public/index.php/haoyi/pigai/userlist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hy_admin_users` WHERE  (  true  ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  (  true  ) ORDER BY `insert_time` DESC LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `username` FROM `hy_admin_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T10:57:37+08:00 ] 127.0.0.1 GET 127.0.0.1/pigaiwang/public/index.php/haoyi/auth/logout
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T10:57:37+08:00 ] 127.0.0.1 GET 127.0.0.1/pigaiwang/public/index.php/haoyi/auth/login.html
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T12:14:20+08:00 ] 127.0.0.1 GET 127.0.0.1/pigaiwang/public/index.php/haoyi/auth/login.html
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T12:14:24+08:00 ] 127.0.0.1 GET 127.0.0.1/pigaiwang/public/index.php/haoyi/auth/login.html
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+---------------------------------------------------------------
+[ 2019-06-21T12:14:30+08:00 ] 127.0.0.1 POST 127.0.0.1/pigaiwang/public/index.php/haoyi/auth/login
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hy_admin_users` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `hy_admin_users` WHERE  `username` = 'jiaoshi' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-06-21T12:14:30+08:00 ] 127.0.0.1 GET 127.0.0.1/pigaiwang/public/index.php/haoyi/pigai/worklist
+[ error ] [8]Use of undefined constant JSCSS - assumed 'JSCSS'[D:\phpStudy\WWW\pigaiwang\config\template.php:39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=haoyi;charset=utf8
+[ sql ] [ SQL ] select * from hy_zuoye where 1 = 1 order by add_time desc [ RunTime:0.001000s ]

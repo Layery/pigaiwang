@@ -1,0 +1,47 @@
+<div class="main-cont">
+    <!--页面内容-->
+    <p class="h5 page-tit-lev1">系统管理 &gt;&gt; 用户管理</p>
+    <div class="table-wraper center-whole">
+        <form class="form-inline user-list" action="/index.php/haoyi/pigai/userlist" method="post">
+            <div class="form-group">
+                <input type="text" class="form-control" id="" style="width: 200px;" name="keywords" placeholder="登录账号、用户姓名、角色" value="{$search_params['keywords']}">
+                <span class="btn btn-default query">查询</span>
+                <span class="btn btn-default add-user">+新增用户</span>
+            </div>
+        </form>
+        <p class="pub-tit"></p>
+        <table class="table table-bordered table-hover center-tit">
+            <thead>
+            <tr>
+                <th style="width: 5%">登录账号</th>
+                <th style="width: 7%">用户姓名</th>
+                <th style="width: 5%">性别</th>
+                <th style="width: 12%">部门</th>
+                <th style="width: 10%">联系方式</th>
+                <th style="width: 10%">备注</th>
+                <th style="width: 8%">创建时间</th>
+                <th style="width: 10%">操作</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            {volist name='user_list' id='row'}
+            <tr id="{$row.id}">
+                <td>{$row.username}</td>
+                <td>{$row.nickname}</td>
+                <td>{$row.sex}</td>
+                <td>{$row.duties}</td>
+                <td>{$row.contact}</td>
+                <td>{$row.remark}</td>
+                <td>{$row.insert_time|date='Y-m-d'}<br>{$row.insert_time|date='H:i:s'}</td>
+                <td>
+                    <a href="javascript:;" class="edit-btn blue edit">修改</a>
+                    <a href="javascript:;" class="edit-btn blue edit">重置密码</a>
+                </td>
+            </tr>
+            {/volist}
+            </tbody>
+        </table>
+    </div>
+    <!--//页面内容-->
+</div>
